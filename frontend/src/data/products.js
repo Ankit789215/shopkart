@@ -1,0 +1,22 @@
+export const productsData = [
+  { id: 1, name: "Samsung Galaxy S23 Ultra", category: "electronics", price: 82999, originalPrice: 99999, discount: 17, rating: 4.5, image: "📱" },
+  { id: 2, name: "Sony WH-1000XM5 Headphones", category: "electronics", price: 29999, originalPrice: 33999, discount: 12, rating: 4.7, image: "🎧" },
+  { id: 3, name: "Apple MacBook Air M2", category: "electronics", price: 94999, originalPrice: 109999, discount: 14, rating: 4.8, image: "💻" },
+  { id: 4, name: "Nike Air Max 270", category: "fashion", price: 9999, originalPrice: 12999, discount: 23, rating: 4.3, image: "👟" },
+  { id: 5, name: "Levi's 501 Original Jeans", category: "fashion", price: 4999, originalPrice: 7999, discount: 38, rating: 4.4, image: "👖" },
+  { id: 6, name: "Adidas Sports T-Shirt", category: "fashion", price: 2499, originalPrice: 4299, discount: 42, rating: 4.2, image: "👕" },
+  { id: 7, name: "IKEA Modern Sofa Set", category: "home", price: 49999, originalPrice: 69999, discount: 29, rating: 4.1, image: "🛋️" },
+  { id: 8, name: "Philips Air Fryer XXL", category: "home", price: 7999, originalPrice: 11999, discount: 33, rating: 4.6, image: "🍳" },
+  { id: 9, name: "Dyson V15 Vacuum Cleaner", category: "home", price: 33999, originalPrice: 41999, discount: 19, rating: 4.7, image: "🧹" },
+  { id: 10, name: "Wilson Tennis Racket Pro", category: "sports", price: 6999, originalPrice: 8999, discount: 22, rating: 4.3, image: "🎾" },
+  { id: 11, name: "Yoga Mat Premium 6mm", category: "sports", price: 2999, originalPrice: 4299, discount: 30, rating: 4.5, image: "🧘" },
+  { id: 12, name: "Dumbbells Set 20kg", category: "sports", price: 5999, originalPrice: 7999, discount: 25, rating: 4.4, image: "🏋️" },
+  { id: 13, name: "Canon EOS R6 Mark II", category: "electronics", price: 184999, originalPrice: 209999, discount: 12, rating: 4.9, image: "📷" },
+  { id: 14, name: "Puma Running Shoes", category: "fashion", price: 7499, originalPrice: 10999, discount: 32, rating: 4.2, image: "👟" },
+  { id: 15, name: "Smart LED Bulbs (4 Pack)", category: "home", price: 3999, originalPrice: 5999, discount: 33, rating: 4.3, image: "💡" },
+  { id: 16, name: "boAt Rockerz 450", category: "electronics", price: 1499, originalPrice: 2999, discount: 50, rating: 4.1, image: "🎧" },
+  { id: 17, name: "Fastrack Watch Analog", category: "fashion", price: 1999, originalPrice: 3499, discount: 43, rating: 4.0, image: "⌚" },
+  { id: 18, name: "Kitchen Knife Set 6pc", category: "home", price: 2499, originalPrice: 4999, discount: 50, rating: 4.2, image: "🔪" },
+  { id: 19, name: "Cricket Bat Professional", category: "sports", price: 4999, originalPrice: 7999, discount: 38, rating: 4.4, image: "🏏" },
+  { id: 20, name: "OnePlus 11R 5G", category: "electronics", price: 39999, originalPrice: 44999, discount: 11, rating: 4.5, image: "📱" }
+];

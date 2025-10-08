@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #2874f0;
+  --secondary-color: #ff9f00;
+  --accent-color: #ff6161;
+  --success-color: #388e3c;
+  --text-primary: #212121;
+  --text-secondary: #878787;
+  --bg-primary: #f1f3f6;
+  --bg-secondary: #ffffff;
+  --border-color: #e0e0e0;
+  --shadow: 0 2px 4px rgba(0,0,0,0.1);
+  --shadow-hover: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+body.dark-mode {
+  --text-primary: #ffffff;
+  --text-secondary: #b0b0b0;
+  --bg-primary: #181818;
+  --bg-secondary: #242424;
+  --border-color: #3a3a3a;
+  --shadow: 0 2px 4px rgba(0,0,0,0.4);
+  --shadow-hover: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+@import url('./Home.css');
+@import url('./Auth.css');
